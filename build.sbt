@@ -19,4 +19,4 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-stream-testkit"  % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"            % "3.0.1"         % Test
     )
-  )dependsOn(africasTalking)
+  ).dependsOn(africasTalking)
