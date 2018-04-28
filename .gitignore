@@ -1,2 +1,17 @@
 *.class
 *.log
+.idea/
+bin/
+logs/
+project/*
+!project/plugins.sbt
+!project/AppDependencies.scala
+!project/build.properties
+target/
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
