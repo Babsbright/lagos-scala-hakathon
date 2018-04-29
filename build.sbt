@@ -1,3 +1,5 @@
+import scalariform.formatter.preferences._
+
 lazy val akkaHttpVersion = "10.1.1"
 lazy val akkaVersion    = "2.5.12"
 
